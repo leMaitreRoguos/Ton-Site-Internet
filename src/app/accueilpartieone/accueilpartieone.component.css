@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Fioretta';
+    src: url('Fioretta.ttf');
+}
+
+@font-face {
+    font-family: 'AGlioOlio';
+    src: url('AGlioOlio.ttf');
+}
+
+.ac-onetext{
+    margin-top: 150px;
+    margin-right: 150px;
+}
+
+.ac-onetext1{
+    font-size: 2.2em;
+    font-weight: bold;
+    font-family: 'AGlioOlio',Georgia;
+}
+
+.ac-onetext2{
+    margin-top: 50px;
+    font-family: cursive,Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-size: 1em;
+}
+
+.ac-onetext2 span{
+    text-decoration: underline;
+}
+
+/*ANIMATION DE LIMAGE CREATION SITE INTERNET INFINI*/
+.moveimg{
+  position: relative;
+  animation: mymove 5s infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes mymove {
+    from {right: 0px;}
+    to {right: 50px;}
+  }
+

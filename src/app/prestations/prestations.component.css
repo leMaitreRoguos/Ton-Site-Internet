@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Christmas_Cat';
+    src: url('Christmas_Cat.ttf');
+}
+
+.container{
+    margin: 100px;
+}
+
+.container .row .col{
+    height: 6cm;
+    text-align: center;
+    padding: 30px;
+    box-shadow: rgb(235, 124, 124) 5px 5px 30px;
+}
+
+.container .row .mydivv1{
+    background-color: rgb(177, 233, 250);
+    height: 6cm;
+}
+
+.container .row .mydivv2{
+    background-color: rgb(159, 230, 252);
+    height: 6cm;
+}
+
+.container .row .mydivv3{
+    background-color: rgb(129, 223, 252);
+    height: 6cm;
+}
+
+.container .row .mydivv4{
+    background-color: rgb(98, 214, 250);
+    height: 6cm;
+}
+
+.container .row .mydivv5{
+    background-color: rgb(62, 207, 252);
+    height: 6cm;
+}
+
+.container .row .mydivv6{
+    background-color: rgb(19, 197, 252);
+    height: 6cm;
+}
+
+h3{
+    font-family: 'Christmas_Cat',Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 15px;
+    font-size: 3.0em;
+}
+

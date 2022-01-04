@@ -1,0 +1,111 @@
+.container{
+    margin-top: 100px;
+    background-color: rgb(248, 247, 247);
+    height: 600px;
+    
+}
+
+.titre{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.titre p{
+    text-align: center;
+    font-family: cursive;
+    font-size: 2em;
+}
+
+.contenu{
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 100px;
+}
+
+.p1, .p2, .p3, .p4, .p5, .p6, .p7, .p8, .p9, .p10, .p11, .p12, .p13, .p14 {
+   
+    opacity: 0;
+    filter: blur(4px);
+    font-weight: bold;
+    font-size: small;
+  }
+
+  .p1, .p12 {
+    color: green;
+    animation: fade-in 3s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+
+ .p2 {
+    animation: fade-in 4s 1.0s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+
+  .p2 .d1, .p11 {
+    color: blue;
+  }
+
+  .p3 {
+    animation: fade-in 5s 1.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+    color: palevioletred;
+  }
+
+  .p4 {
+    animation: fade-in 6s 2.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+
+  .p5 {
+    animation: fade-in 7s 3.0s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+
+  .p6 {
+    animation: fade-in 8s 3.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+
+  .p7 {
+    animation: fade-in 9s 4.0s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+
+  .p8 {
+    animation: fade-in 10s 4.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+
+  .p9 {
+    animation: fade-in 11s 5.0s forwards cubic-bezier(0.11, 0, 0.5, 0);
+    color: palevioletred;
+  }
+
+  .p10 {
+    animation: fade-in 12s 5.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+
+  .p11 {
+    animation: fade-in 13s 6.0s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+
+  .p12 {
+    animation: fade-in 14s 6.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+
+  .p13 {
+    animation: fade-in 15s 7.0s forwards cubic-bezier(0.11, 0, 0.5, 0);
+    color: palevioletred;
+  }
+
+  .p14 {
+    animation: fade-in 16s 7.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+    border: 0.1em dashed green;
+    width: 250px;
+  }
+
+  .a{
+      color: orange;
+  }
+
+  @keyframes fade-in {
+    100% {
+      opacity: 1;
+      filter: blur(0);
+    }
+  }
+
+  .imagDevis{
+      padding: 100px;
+  }
